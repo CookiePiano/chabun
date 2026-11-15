@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings of the parked screen ("주차 후", spec 5 and 9). -->
+<resources>
+    <!-- The unseen-contacts line, top right. -->
+    <string name="parked_contacts_both">Missed calls: %1$d · Messages: %2$d</string>
+    <string name="parked_contacts_calls">Missed calls: %1$d</string>
+    <string name="parked_contacts_messages">Messages: %1$d</string>
+    <string name="parked_contact_names_more">%1$s and %2$d more</string>
+
+    <!-- The caller line and the list rows: "1:52 PM · 8 min 12 s". -->
+    <string name="parked_time_am">%1$d:%2$02d AM</string>
+    <string name="parked_time_pm">%1$d:%2$02d PM</string>
+    <string name="parked_day_time">%1$s, %2$s</string>
+    <string name="parked_today">Today</string>
+    <string name="parked_yesterday">Yesterday</string>
+    <string name="parked_date">%1$d/%2$d</string>
+    <string name="parked_time_and_length">%1$s · %2$s</string>
+    <string name="parked_length_minutes_seconds">%1$d min %2$d s</string>
+    <string name="parked_length_minutes">%1$d min</string>
+    <string name="parked_length_seconds">%1$d s</string>
+
+    <!-- Tags. -->
+    <string name="parked_my_promise">My promise</string>
+
+    <!-- The received-call list. -->
+    <string name="parked_earlier">Earlier calls</string>
+    <string name="parked_earlier_expand">Show earlier calls</string>
+    <string name="parked_earlier_collapse">Hide earlier calls</string>
+    <string name="parked_folded">Collapsed</string>
+    <string name="parked_unfolded">Expanded</string>
+
+    <!-- Why a stretch was missed: under the call wave and on the missed-part cards. -->
+    <string name="parked_cause_left_turn">Turning left</string>
+    <string name="parked_cause_rain">Heavy rain</string>
+    <string name="parked_cause_noise">Cabin noise</string>
+    <string name="parked_cause_driving">Driving</string>
+    <string name="parked_missed_part">Missed · %1$s</string>
+    <string name="parked_missed_none">Nothing was missed</string>
+
+    <!-- The full-transcript card and sheet. -->
+    <string name="parked_full">Full transcript</string>
+    <plurals name="parked_full_detail">
+        <item quantity="one">%1$d sentence · %2$s</item>
+        <item quantity="other">%1$d sentences · %2$s</item>
+    </plurals>
+    <plurals name="parked_full_count">
+        <item quantity="one">%1$d sentence</item>
+        <item quantity="other">%1$d sentences</item>
+    </plurals>
+    <string name="parked_full_open">Open the full transcript</string>
+    <string name="parked_sheet_subtitle">%1$s · %2$s</string>
+    <string name="parked_me">Me</string>
+    <string name="parked_line_missed">Missed sentence</string>
+    <string name="parked_materials">Materials</string>
+
+    <!-- No call on this drive (spec 9 "통화 없음"). -->
+    <string name="parked_empty_title">No calls today</string>
+    <string name="parked_empty_body">When you take a call while driving, the car adjusts the cabin, and once you park, the call memo appears here.</string>
+</resources>

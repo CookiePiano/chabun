@@ -1,0 +1,94 @@
+차분 (Chabun)
+=============
+
+This app includes the following third-party material.
+
+Material Symbols (Google)
+-------------------------
+Files: app/src/main/res/drawable/ic_fan.xml, ic_window.xml, ic_recirculation.xml, ic_seat.xml,
+ic_light.xml, ic_ambient.xml, ic_call.xml, ic_rain.xml, ic_turn_left.xml, ic_turn_right.xml,
+ic_speaker.xml, ic_tune.xml, ic_check.xml, ic_expand_more.xml, ic_expand_less.xml, ic_delete.xml,
+ic_mic.xml
+
+Source: https://github.com/google/material-design-icons (symbols/android, outlined, weight 300),
+downloaded on 2026-11-12 (ic_recirculation is "cached" and ic_ambient is "lightbulb", added
+2026-11-13; ic_expand_more, ic_expand_less, ic_delete and ic_mic added 2026-11-13). The android:tint attribute was removed; the paths are unchanged.
+
+License: Apache License, Version 2.0
+https://www.apache.org/licenses/LICENSE-2.0
+
+Vehicle renders
+---------------
+Files: app/src/main/res/drawable-nodpi/car_cabin.webp, car_side.webp,
+docs/hero_front.jpg, docs/hero_rear.jpg
+
+Made from images supplied by the project owner (04_참고자료/01_차량이미지), which were produced
+with an image generation model. They show a generic vehicle and no real make or model. The app
+copies were cropped, resized and, for the two top-down views, cut out of their background.
+
+Additional design-session files (2026-11-15):
+app/src/main/res/drawable-nodpi/car_top_hd.webp, car_hero.webp, car_base.webp,
+car_seat.webp, car_wheel.webp; docs/design/img/car_top.webp, car_top_hd.webp,
+car_hero.jpg; docs/design/parts/car_base.png, car_seat.png, car_wheel.png
+
+These use the same project-owner-supplied generated images. The design session cropped the
+vehicle views and separated the body, driver's seat and steering wheel for animation.
+See docs/design/web_readme.md ("자료 출처") and docs/design/spec.md, section 7.
+
+Gleo AI logo
+-------------
+Files: app/src/main/res/drawable-nodpi/gleo.webp, docs/design/img/gleo.png
+
+The project owner confirmed the Gleo AI logo as official Hyundai Motor Group material.
+The design-session source image, recorded in docs/design/web_readme.md ("자료 출처"), is:
+https://image.edaily.co.kr/images/photo/files/NP/S/2026/10/PS26103000698.jpg
+The background was removed from the 520 x 520 source image to make gleo.png; the app copy
+uses WebP. Source and processing notes are also in docs/design/spec.md, section 7.
+
+Demo meeting audio
+------------------
+Files: app/src/main/assets/meeting/delivery/note_01.pcm to note_11.pcm,
+app/src/main/assets/meeting/expansion/note_01.pcm to note_11.pcm
+
+The demo meeting sentences (res/values/strings.xml, demo_note_texts and demo2_note_texts) read by the Windows
+built-in voice "Microsoft Heami Desktop" on 2026-11-13, with the pitch varied per speaker, and
+converted to 16 kHz, 16-bit mono PCM with FFmpeg. The terms for redistributing this voice's
+output in an app have not been confirmed; replace the clips with recordings of the team's own
+voices before the app is published.
+
+NeoHyundai typeface
+-------------------
+Files: app/src/main/res/font/neohyundai_light.ttf, neohyundai_regular.ttf,
+neohyundai_bold.ttf, neohyundai_extrabold.ttf
+
+NeoHyundai is the competition's official typeface, supplied by the competition organizer.
+It is also used in the design materials; see docs/design/web_readme.md ("자료 출처")
+and docs/design/spec.md, section 4.
+
+Copied unchanged from 01_공식자료/공식폰트. The licence terms for bundling this typeface in a
+distributed app have not been confirmed; confirm them before the app is published.
+
+Design materials
+-----------------
+Files: docs/design/ (design specification, web mockup, previews and extracted vehicle parts)
+
+Prepared during this project's design session. Source notes are in docs/design/web_readme.md
+("자료 출처") and docs/design/spec.md, section 7. The vehicle images, Gleo AI logo and
+NeoHyundai typeface use the sources described above. The worker, laptop and contact portraits
+were drawn for the mockup, as recorded in web_readme.md. Some line-icon paths use Feather Icons.
+
+Feather Icons
+--------------
+Files: docs/design/chabun.js (some SVG icon paths in the web mockup)
+
+Source attribution: docs/design/web_readme.md ("자료 출처") and the header of
+docs/design/chabun.js identify these paths as Feather Icons.
+License: MIT, as recorded in those source notes.
+
+App icon
+--------
+Files: app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png, ic_launcher_background.png,
+ic_launcher_monochrome.png
+
+Designed for this project in Figma (2026-11-15): the first letter of the app name, ㅊ, drawn as a
+road at night in the app's colours. No third-party material.

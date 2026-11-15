@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The design size is 760 x 170 dp; smaller hosts can resize down to 320 x 100 dp. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/status_card_two_line_description"
+    android:initialLayout="@layout/status_card"
+    android:minHeight="170dp"
+    android:minWidth="760dp"
+    android:minResizeHeight="100dp"
+    android:minResizeWidth="320dp"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />

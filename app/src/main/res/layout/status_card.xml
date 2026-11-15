@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The 760 x 170 dp status card (StatusCardProvider), using only RemoteViews-compatible views.
+    A solid surface and border approximate the glass design in any widget host.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/status_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/status_card_surface"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:importantForAccessibility="yes"
+    android:minHeight="100dp"
+    android:orientation="horizontal"
+    android:paddingHorizontal="40dp"
+    android:screenReaderFocusable="true">
+
+    <!-- android:tint, not app:tint: the widget host draws this view and has no AppCompat. -->
+    <ImageView
+        android:id="@+id/status_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/status_card_icon_surface"
+        android:importantForAccessibility="no"
+        android:padding="26dp"
+        android:src="@drawable/ic_status"
+        android:tint="@color/card_accent"
+        tools:ignore="UseAppTint" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_weight="1"
+        android:importantForAccessibility="noHideDescendants"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/status_headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/neohyundai_bold"
+            android:includeFontPadding="false"
+            android:lineHeight="44sp"
+            android:maxLines="1"
+            android:textColor="@color/card_text"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/status_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/neohyundai_regular"
+            android:includeFontPadding="false"
+            android:lineHeight="36sp"
+            android:maxLines="1"
+            android:textColor="@color/card_text_muted"
+            android:textSize="26sp" />
+    </LinearLayout>
+</LinearLayout>

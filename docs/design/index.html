@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>차분 밤공기 전체 화면 시안</title>
+<link rel="stylesheet" href="chabun.css">
+</head>
+<body>
+<aside class="side" id="nav"></aside>
+<div class="bar">
+  <div class="seg" id="segT" role="group" aria-label="낮과 밤">
+    <button data-v="day">낮 화면</button><button data-v="night">밤 화면</button>
+  </div>
+  <label class="chk"><input type="checkbox" id="ctx"> 차량 화면 속에서 보기</label>
+  <label class="chk"><input type="checkbox" id="zone"> 비워 둔 왼쪽 위 구역 표시</label>
+</div>
+<div class="note" id="note"></div>
+<div class="viewport" id="viewport"><div class="scaler" id="scaler"><div class="frame" id="frame"><div class="app" id="app"></div></div></div></div>
+<script src="chabun.js"></script>
+</body>
+</html>

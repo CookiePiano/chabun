@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chabun</string>
+
+    <string name="mode_assist">Driving, assisted</string>
+
+    <string name="standby_idle_headline">Standing by quietly</string>
+    <string name="standby_call_headline">On a call</string>
+    <string name="quiet_headline">Cabin tuned for the call</string>
+    <string name="quiet_supporting">Everything returns when the call ends</string>
+    <string name="quiet_poor_headline">The call is a little hard to hear</string>
+    <string name="quiet_poor_supporting">Lowering the air one step at a time</string>
+    <string name="quiet_bad_headline">The call is very hard to hear</string>
+    <string name="quiet_bad_supporting">Lowering the air and raising the call volume</string>
+
+    <string name="rail_fan">Fan</string>
+    <string name="rail_window">Window</string>
+    <string name="rail_recirculation">Air intake</string>
+    <string name="rail_air_direction">Air direction</string>
+    <string name="rail_call_volume">Call volume</string>
+    <string name="value_air_face">Face</string>
+    <string name="value_air_face_feet">Face and feet</string>
+    <string name="value_air_feet">Feet</string>
+    <string name="value_air_windshield">Windshield</string>
+    <string name="value_air_face_windshield">Face and windshield</string>
+    <string name="value_air_feet_windshield">Feet and windshield</string>
+    <string name="value_air_all">Face, feet and windshield</string>
+    <string name="demo_steering">Steering angle</string>
+    <string name="value_recirculation_on">Inside</string>
+    <string name="value_recirculation_off">Outside</string>
+    <string name="value_level">Level %1$d</string>
+    <string name="value_window_closed">Closed</string>
+    <string name="value_window_open">%1$d%% open</string>
+    <string name="rail_row_description">%1$s %2$s</string>
+    <string name="rail_row_description_restore_call">%1$s %2$s, returns to %3$s when the call ends</string>
+
+    <string name="capture_headline">Marking what you are missing</string>
+    <string name="takeover_headline">Take the wheel</string>
+
+    <string name="dialog_waiting_headline">Gleo has a summary ready</string>
+    <string name="dialog_waiting_supporting">Keep your eyes on the road. It will speak when the road clears</string>
+    <string name="dialog_offer_headline">Gleo has a summary ready</string>
+    <string name="dialog_offer_supporting">It can talk you through the key points of the call</string>
+    <string name="dialog_explain_headline">Gleo is summing up the call</string>
+    <string name="dialog_explain_supporting">The whole call is in the call memo once you park</string>
+    <string name="dialog_ask_headline">Gleo is waiting for your question</string>
+    <string name="dialog_ask_supporting">It answers from the call memo</string>
+    <string name="dialog_answer_headline">Gleo is answering</string>
+    <string name="dialog_answer_supporting">This is what the call memo says</string>
+    <string name="voice_hint_offer">Say “yes” or “no”</string>
+    <string name="voice_hint_ask">Ask a question, or say “stop”</string>
+
+    <string name="gleo_offer">Would you like to hear a summary of the call?</string>
+    <string name="gleo_summary_intro">Here are the key points.</string>
+    <string name="gleo_no_key_points">The call had no key points to sum up.</string>
+    <string name="gleo_missed_intro">This is what you may have missed while driving.</string>
+    <string name="gleo_missed_noise_intro">This is what you may have missed because of cabin noise.</string>
+    <string name="gleo_missed_mixed_intro">This is what you may have missed while driving or because of cabin noise.</string>
+    <string name="gleo_ask">Is there anything you would like to know about it?</string>
+    <string name="gleo_not_mentioned">That did not come up on the call.</string>
+
+    <string name="office_title">Office mode</string>
+    <string name="office_seat">Seat back</string>
+    <string name="office_light">Reading light</string>
+    <string name="office_ambient">Ambient light</string>
+    <string name="value_percent">%1$d%%</string>
+    <string name="value_off">Off</string>
+
+
+    <string name="demo_open">Demo controls</string>
+    <string name="demo_close">Close demo controls</string>
+    <string name="demo_link_none">No vehicle connected. Every value is simulated</string>
+    <string name="demo_link_all">Vehicle connected. A call starts when the phone is answered, or from here</string>
+    <string name="demo_link_partial">Vehicle connected. Simulated: %1$s</string>
+    <!-- Vehicle features named in the link line, where no other string already names them -->
+    <string name="feature_temperature">Set temperature</string>
+    <string name="feature_air_conditioning">Air conditioning</string>
+    <string name="feature_air_cleaner">Air cleaner</string>
+    <string name="feature_defroster">Defroster</string>
+    <string name="feature_seat_climate">Seat ventilation and heating</string>
+    <string name="feature_ambient_color">Ambient light colour</string>
+    <string name="feature_seat_slide">Seat fore and aft</string>
+    <string name="feature_cushion_tilt">Cushion tilt</string>
+    <string name="feature_door_lock">Door lock</string>
+    <string name="feature_wheel_position">Steering wheel position</string>
+    <string name="label_cabin_light">Cabin light</string>
+    <string name="demo_gear">Gear</string>
+    <string name="demo_call">Call</string>
+    <string name="demo_call_off">Ended</string>
+    <string name="demo_call_on">Connected</string>
+    <string name="demo_speaking">Driver speech</string>
+    <string name="demo_speaking_off">Silent</string>
+    <string name="demo_speaking_on">Speaking</string>
+    <string name="demo_noise">Noise around</string>
+    <string name="demo_noise_low">Low</string>
+    <string name="demo_noise_normal">Normal</string>
+    <string name="demo_noise_high">High</string>
+    <string name="demo_autonomous">Self-driving (demo)</string>
+    <string name="demo_autonomous_off">Driver</string>
+    <string name="demo_autonomous_on">Car</string>
+    <string name="demo_wiper">Wipers</string>
+    <string name="demo_wiper_off">Off</string>
+    <string name="demo_wiper_low">Low</string>
+    <string name="demo_wiper_high">High</string>
+    <string name="demo_turn">Turn signal</string>
+    <string name="demo_turn_off">Off</string>
+    <string name="demo_turn_left">Left</string>
+    <string name="demo_turn_right">Right</string>
+
+    <string name="demo_meeting_title">Weekly delivery meeting</string>
+    <string name="demo_driver_speaker">Me</string>
+    <string-array name="demo_note_speakers">
+        <item>Kim, team lead</item>
+        <item>Me</item>
+        <item>Park, senior</item>
+        <item>Kim, team lead</item>
+        <item>Me</item>
+        <item>Lee, engineer</item>
+        <item>Park, senior</item>
+        <item>Me</item>
+        <item>Kim, team lead</item>
+        <item>Lee, engineer</item>
+        <item>Kim, team lead</item>
+    </string-array>
+    <string-array name="demo_note_texts">
+        <item>Let\'s start with the delivery schedule for Ulsan plant 2.</item>
+        <item>Sure, I have the schedule in front of me.</item>
+        <item>Parts arrived three days late, so delivery has to move to November 28.</item>
+        <item>Please send the customer the change notice today.</item>
+        <item>I will send the notice this afternoon.</item>
+        <item>We need two more inspectors. They can start next Monday.</item>
+        <item>We will reissue the quote at 3 percent above the current price.</item>
+        <item>I will put together the reasons for the increase.</item>
+        <item>Please upload the supporting data for the increase by Friday.</item>
+        <item>The site safety check is set for Thursday at 10 a.m.</item>
+        <item>We will continue at the same time next week.</item>
+    </string-array>
+
+    <string-array name="demo_material_titles">
+        <item>Q4 delivery schedule</item>
+        <item>Revised quote</item>
+    </string-array>
+    <string-array name="demo_material_details">
+        <item>Table, 2 pages</item>
+        <item>Document, 4 pages</item>
+    </string-array>
+    <string-array name="demo_material_highlights">
+        <item>Ulsan plant 2 delivery November 28 | Parts delayed 3 days</item>
+        <item>3 percent above the current price | Valid until December 15</item>
+    </string-array>
+    <string name="demo2_meeting_title">Line expansion technical review</string>
+    <string-array name="demo2_note_speakers">
+        <item>Choi, principal</item>
+        <item>Jung, manager</item>
+        <item>Me</item>
+        <item>Han, researcher</item>
+        <item>Choi, principal</item>
+        <item>Me</item>
+        <item>Jung, manager</item>
+        <item>Han, researcher</item>
+        <item>Me</item>
+        <item>Choi, principal</item>
+        <item>Jung, manager</item>
+    </string-array>
+    <string-array name="demo2_note_texts">
+        <item>Let\'s start with the Hwaseong line expansion.</item>
+        <item>Equipment delivery has slipped a week, to the 10th of next month.</item>
+        <item>I will check the delivery date with the supplier again.</item>
+        <item>We decided on option 2 for the cooling unit.</item>
+        <item>Please get two more quotes by Friday.</item>
+        <item>I will share a quote comparison by Thursday.</item>
+        <item>Commissioning will need about five people.</item>
+        <item>Safety training is on the 18th at 2 p.m. in the main conference room.</item>
+        <item>I will take care of the attendee list.</item>
+        <item>Good. That\'s all for today.</item>
+        <item>Thank you, everyone.</item>
+    </string-array>
+    <string-array name="demo2_material_titles">
+        <item>Expansion schedule draft</item>
+        <item>Equipment quote comparison</item>
+    </string-array>
+    <string-array name="demo2_material_details">
+        <item>Table, 1 page</item>
+        <item>Document, 3 pages</item>
+    </string-array>
+    <string-array name="demo2_material_highlights">
+        <item>Equipment delivery on the 10th | Safety training on the 18th at 2 p.m.</item>
+        <item>Cooling unit option 2 | Two more quotes requested</item>
+    </string-array>
+    <!-- First use, and what the car or the device could not do -->
+    <string name="refusal">The car did not accept the %1$s change</string>
+    <string name="part_fan">fan</string>
+    <string name="part_window">window</string>
+    <string name="part_recirculation">air intake</string>
+    <string name="part_seat">seat</string>
+    <string name="part_reading_light">reading light</string>
+    <string name="part_ambient">ambient light</string>
+    <string name="part_air_direction">air direction</string>
+    <string name="part_temperature">set temperature</string>
+    <string name="part_seat_ventilation">seat ventilation</string>
+    <string name="part_seat_heating">seat heating</string>
+    <string name="part_air_cleaner">air cleaner</string>
+    <string name="part_defroster">defroster</string>
+    <string name="part_ambient_color">ambient light colour</string>
+    <string name="part_call_volume">call volume</string>
+    <string name="demo_reply">Driver\'s reply</string>
+    <string name="demo_reply_yes">Yes</string>
+    <string name="demo_reply_no">No</string>
+    <string name="demo_reply_question">Question</string>
+    <string name="demo_reply_stop">Stop</string>
+    <string name="demo_reply_question_text">When is the delivery?</string>
+
+    <string name="status_channel">Status</string>
+
+    <!-- Parked: this drive's calls and contacts -->
+    <plurals name="contact_missed_calls">
+        <item quantity="one">%1$d missed call (%2$s)</item>
+        <item quantity="other">%1$d missed calls (%2$s)</item>
+    </plurals>
+    <plurals name="contact_messages">
+        <item quantity="one">%1$d message (%2$s)</item>
+        <item quantity="other">%1$d messages (%2$s)</item>
+    </plurals>
+    <plurals name="contact_names_more">
+        <item quantity="one">%1$s and %2$d more</item>
+        <item quantity="other">%1$s and %2$d more</item>
+    </plurals>
+
+    <!-- Parked: office mode as a laptop workspace -->
+    <string name="office_step_usb">USB-C power</string>
+    <string name="label_seat_height">Seat height</string>
+    <string name="label_cushion_length">Cushion length</string>
+    <string name="label_lumbar">Lumbar support</string>
+    <string name="label_shade">Shades</string>
+    <string name="usb_location_console_front">Front of the centre console</string>
+    <string name="usb_location_console_rear">Rear of the centre console</string>
+    <string name="part_seat_slide">seat position</string>
+    <string name="part_seat_height">seat height</string>
+    <string name="part_cushion_tilt">cushion tilt</string>
+    <string name="part_cushion_length">cushion length</string>
+    <string name="part_lumbar">lumbar support</string>
+    <string name="part_cabin_light">cabin light</string>
+    <string name="part_shade">shades</string>
+    <string name="part_door_lock">door lock</string>
+    <string name="part_steering_wheel">steering wheel</string>
+
+    <!-- Demo controls for the drive's contacts, the battery and the USB-C port -->
+    <string name="demo_contacts">Phone</string>
+    <string name="demo_contact_call">Missed call</string>
+    <string name="demo_contact_message">Message</string>
+    <string name="demo_contact_seen">All seen</string>
+    <string name="demo_battery">Car battery</string>
+    <string name="demo_usb">USB-C device</string>
+    <string name="demo_usb_none">None</string>
+    <string name="value_watts">%1$d W</string>
+    <string-array name="demo_contact_callers">
+        <item>Team lead Kim</item>
+        <item>Mum</item>
+        <item>Lee</item>
+    </string-array>
+    <string-array name="demo_contact_senders">
+        <item>Park</item>
+        <item>Manager Jung</item>
+        <item>Choi</item>
+        <item>Park</item>
+        <item>Han</item>
+    </string-array>
+</resources>

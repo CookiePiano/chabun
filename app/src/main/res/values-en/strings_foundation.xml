@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_wave_description">
+        <item quantity="one">Call flow. %1$d missed stretch</item>
+        <item quantity="other">Call flow. %1$d missed stretches</item>
+    </plurals>
+    <string name="call_wave_description_none">Call flow. Nothing was missed</string>
+
+    <string name="gleo_icon_description">Gleo AI</string>
+    <string name="turn_listening">Listening</string>
+    <string name="new_memo">New memo</string>
+
+    <string name="step_number">Step %1$d</string>
+    <string name="step_waiting">waiting</string>
+    <string name="step_now">in progress</string>
+    <string name="step_done">done</string>
+
+    <string name="sheet_close">Close</string>
+</resources>

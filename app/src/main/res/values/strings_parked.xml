@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings of the parked screen ("주차 후", spec 5 and 9). -->
+<resources>
+    <!-- The unseen-contacts line, top right. -->
+    <string name="parked_contacts_both">받지 않은 전화 %1$d건 · 메시지 %2$d건</string>
+    <string name="parked_contacts_calls">받지 않은 전화 %1$d건</string>
+    <string name="parked_contacts_messages">메시지 %1$d건</string>
+    <string name="parked_contact_names_more">%1$s 외 %2$d명</string>
+
+    <!-- The caller line and the list rows: "오후 1:52 · 8분 12초". -->
+    <string name="parked_time_am">오전 %1$d:%2$02d</string>
+    <string name="parked_time_pm">오후 %1$d:%2$02d</string>
+    <string name="parked_day_time">%1$s %2$s</string>
+    <string name="parked_today">오늘</string>
+    <string name="parked_yesterday">어제</string>
+    <string name="parked_date">%1$d월 %2$d일</string>
+    <string name="parked_time_and_length">%1$s · %2$s</string>
+    <string name="parked_length_minutes_seconds">%1$d분 %2$d초</string>
+    <string name="parked_length_minutes">%1$d분</string>
+    <string name="parked_length_seconds">%1$d초</string>
+    <string name="parked_elapsed" translatable="false">%1$d:%2$02d</string>
+
+    <!-- Tags. -->
+    <string name="parked_my_promise">내 약속</string>
+
+    <!-- The received-call list. -->
+    <string name="parked_earlier">이전 통화</string>
+    <string name="parked_earlier_expand">이전 통화 펼치기</string>
+    <string name="parked_earlier_collapse">이전 통화 접기</string>
+    <string name="parked_folded">접힘</string>
+    <string name="parked_unfolded">펼침</string>
+
+    <!-- Why a stretch was missed: under the call wave and on the missed-part cards. -->
+    <string name="parked_cause_left_turn">좌회전 중</string>
+    <string name="parked_cause_rain">폭우</string>
+    <string name="parked_cause_noise">실내 소음</string>
+    <string name="parked_cause_driving">운전 중</string>
+    <string name="parked_missed_part">못 들은 부분 · %1$s</string>
+    <string name="parked_missed_none">못 들은 부분이 없습니다</string>
+
+    <!-- The full-transcript card and sheet. -->
+    <string name="parked_full">전체 내용</string>
+    <plurals name="parked_full_detail">
+        <item quantity="other">%1$d문장 · %2$s</item>
+    </plurals>
+    <plurals name="parked_full_count">
+        <item quantity="other">%1$d문장</item>
+    </plurals>
+    <string name="parked_full_open">전체 내용 펼치기</string>
+    <string name="parked_sheet_subtitle">%1$s · %2$s</string>
+    <string name="parked_me">나</string>
+    <string name="parked_line_missed">못 들은 문장</string>
+    <string name="parked_materials">자료</string>
+
+    <!-- No call on this drive (spec 9 "통화 없음"). -->
+    <string name="parked_empty_title">오늘은 받은 통화가 없습니다</string>
+    <string name="parked_empty_body">운전 중에 전화를 받으면 차가 실내를 맞추고, 주차한 뒤 여기에 통화 메모를 보여 드립니다.</string>
+</resources>

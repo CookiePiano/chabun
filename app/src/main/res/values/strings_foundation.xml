@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings of the shared redesign foundation: theme, components and the screen skeleton. -->
+<resources>
+    <!-- The call wave, read as one picture (spec 10). -->
+    <plurals name="call_wave_description">
+        <item quantity="other">통화 흐름. 못 들은 구간 %1$d곳</item>
+    </plurals>
+    <string name="call_wave_description_none">통화 흐름. 못 들은 구간이 없습니다</string>
+
+    <string name="gleo_name" translatable="false">Gleo</string>
+    <string name="gleo_icon_description">Gleo AI</string>
+    <string name="turn_listening">듣고 있습니다</string>
+    <string name="new_memo">새 메모</string>
+
+    <!-- The office steps list, read per row: "2단계, 시트를 뒤로 밀고 조금 낮춥니다, 진행 중". -->
+    <string name="step_number">%1$d단계</string>
+    <string name="step_waiting">기다림</string>
+    <string name="step_now">진행 중</string>
+    <string name="step_done">끝남</string>
+
+    <!-- The bottom sheet's close button (spec 10). -->
+    <string name="sheet_close">닫기</string>
+</resources>

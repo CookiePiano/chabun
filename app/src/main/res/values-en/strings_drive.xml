@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drive_waiting">Waiting for a call</string>
+    <string name="drive_quieting">Adjusting the cabin for a clearer call</string>
+    <string name="drive_capturing">Marking what you may have missed</string>
+    <string name="drive_window_refused">The vehicle did not accept the window adjustment</string>
+    <string name="drive_cabin_refused">The vehicle did not accept the cabin adjustment</string>
+    <string name="drive_auto_off">Automatic adjustment is off</string>
+    <string name="drive_takeover">Please take over driving</string>
+    <string name="drive_auto_quiet_off">Turn off automatic adjustment</string>
+    <string name="drive_auto_quiet_on">Turn on automatic adjustment</string>
+
+    <string name="drive_dialog_ready">Gleo has a summary ready</string>
+    <string name="drive_dialog_offer">Would you like to hear the call summary?</string>
+    <string name="drive_dialog_hint">Say “yes” to hear it</string>
+    <string name="drive_dialog_yes">Yes</string>
+    <string name="drive_dialog_listening">Listening</string>
+    <string name="drive_dialog_missed">Parts you missed</string>
+    <string name="drive_dialog_ask">Is there anything you would like to know?</string>
+    <string name="drive_dialog_end">You can review the call memo after parking.</string>
+    <string name="drive_dialog_waiting">Focus on driving. Gleo will speak when the road clears.</string>
+    <string name="drive_dialog_answering">Finding the answer in your call memo</string>
+
+    <string name="drive_consent_tagline">Your work companion</string>
+    <string name="drive_consent_title">Welcome to Chabun</string>
+    <string name="drive_consent_phase_call">During a call</string>
+    <string name="drive_consent_phase_after">After a call</string>
+    <string name="drive_consent_phase_parked">Once parked</string>
+    <string name="drive_consent_phase_work">When you need to work</string>
+    <string name="drive_consent_quiet_title">A quieter cabin</string>
+    <string name="drive_consent_quiet_detail">Lowers the fan and closes windows for clearer calls.</string>
+    <string name="drive_consent_gleo_title">Gleo goes over it</string>
+    <string name="drive_consent_gleo_detail">Gleo recaps what you missed while driving.</string>
+    <string name="drive_consent_memo_title">Memos at a glance</string>
+    <string name="drive_consent_memo_detail">Key points and missed parts, grouped by call.</string>
+    <string name="drive_consent_office_title">Office mode</string>
+    <string name="drive_consent_office_detail">One button makes the car a laptop workspace.</string>
+    <string name="drive_consent_recording_notice">Calls are transcribed and stored only in this car.</string>
+    <string name="drive_consent_later">Later</string>
+    <string name="drive_consent_accept">Get started</string>
+    <string name="drive_consent_fan">Fan</string>
+    <string name="drive_consent_fan_level">Level %1$d</string>
+    <string name="drive_consent_window_closed">Window closed</string>
+    <string name="drive_consent_laptop_charging">Laptop charging</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="android.hardware.type.automotive"
+        android:required="true" />
+
+    <!--
+        Pleos vehicle permissions. Declaring them is enough; Pleos Connect shows no runtime dialog.
+        Read: gear (DRIVE), turn signal, reading, cabin and ambient light and its colour (LIGHTS),
+        wipers and windows (WINDOWS), fan, recirculation, air direction, set temperature, air
+        conditioning, air cleaner and defroster (CLIMATE), seat backrest, fore and aft, height,
+        cushion tilt and seat ventilation and heating (SEATS), door locks (DOORS), the battery's
+        charge (ENERGY), steering angle.
+        Control: the same, except the gear, turn signal, wipers, air conditioning, battery and
+        steering angle.
+    -->
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CAR_CLIMATE" />
+    <uses-permission android:name="pleos.car.permission.CAR_SEATS" />
+    <uses-permission android:name="pleos.car.permission.CAR_DOORS" />
+    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" />
+    <uses-permission android:name="pleos.car.permission.READ_CAR_STEERING" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_CLIMATE" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_SEATS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_DOORS" />
+
+    <!-- Speech: writing the meeting down (SpeechToText) and reading the summary (TextToSpeech). -->
+    <uses-permission android:name="pleos.car.permission.STT_SERVICE" />
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
+
+    <!--
+        Working while another app is in front (SyncDeskService), from the moment the vehicle
+        starts (StartupReceiver). POST_NOTIFICATIONS only decides whether the driver sees the
+        status line; the service runs without it.
+    -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".SyncDeskApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SyncDesk">
+
+        <!--
+            The launcher entry is the only exported component and takes no data from its Intent;
+            the service and the status card below are reached only by the app and the system.
+            configChanges: Pleos Connect resizes and re-orients app windows and switches day and
+            night while driving; Compose redraws for all of these without restarting the Activity.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="uiMode|orientation|screenSize|smallestScreenSize|screenLayout|density|keyboard|keyboardHidden|navigation"
+            android:exported="true"
+            android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Declares that the screen follows driver-distraction rules, so it may stay visible while driving. -->
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+        </activity>
+
+        <!--
+            Tunes the cabin for a call and writes the meeting down while navigation or another app covers
+            this one. None of the platform's named foreground service types describes that, so
+            it is declared as a special use.
+        -->
+        <service
+            android:name=".runtime.SyncDeskService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Keeps cabin noise down and writes the meeting down during a phone call while the driver uses another app such as navigation" />
+        </service>
+
+        <!-- Starts the service with the vehicle and after an update. Only the system sends these. -->
+        <receiver
+            android:name=".runtime.StartupReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- The status card, a standard app widget. Only the system's widget service sends to it. -->
+        <receiver
+            android:name=".runtime.StatusCardProvider"
+            android:exported="false"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/status_card_info" />
+        </receiver>
+    </application>
+
+</manifest>

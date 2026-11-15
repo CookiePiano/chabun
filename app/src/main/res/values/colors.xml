@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Same values as Palette.day.ground and Palette.night.ground. -->
+    <color name="ground">#F5F7F9</color>
+    <!-- Status card: the night-air design tokens; night values are in values-night. -->
+    <color name="card_text">#0F1B3D</color>
+    <color name="card_text_muted">#4A5880</color>
+    <color name="card_accent">#0A7D73</color>
+    <color name="card_background">#F7F9FE</color>
+    <color name="card_border">#F2FFFFFF</color>
+    <color name="card_icon_background">#140A7D73</color>
+</resources>

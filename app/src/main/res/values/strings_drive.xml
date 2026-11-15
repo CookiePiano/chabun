@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drive_waiting">통화를 기다리는 중</string>
+    <string name="drive_quieting">통화가 잘 들리도록 조절 중</string>
+    <string name="drive_capturing">못 들은 부분을 표시하는 중</string>
+    <string name="drive_window_refused">차량이 창문 조작을 받아들이지 않았습니다</string>
+    <string name="drive_cabin_refused">차량이 실내 조작을 받아들이지 않았습니다</string>
+    <string name="drive_auto_off">자동 조절이 꺼져 있습니다</string>
+    <string name="drive_takeover">운전을 넘겨받으세요</string>
+    <string name="drive_auto_quiet_off">자동 조절 끄기</string>
+    <string name="drive_auto_quiet_on">자동 조절 켜기</string>
+
+    <string name="drive_dialog_ready">Gleo가 요약을 준비했습니다</string>
+    <string name="drive_dialog_offer">통화 요약을 듣고 싶으신가요?</string>
+    <string name="drive_dialog_hint">“네”라고 말하면 들려 드립니다</string>
+    <string name="drive_dialog_yes">네</string>
+    <string name="drive_dialog_listening">듣고 있습니다</string>
+    <string name="drive_dialog_missed">못 들은 부분</string>
+    <string name="drive_dialog_ask">궁금하신 사항이 있으신가요?</string>
+    <string name="drive_dialog_end">네. 통화 메모는 주차 후에 다시 보실 수 있습니다.</string>
+    <string name="drive_dialog_waiting">운전에 집중하세요. 도로가 풀리면 말씀드립니다</string>
+    <string name="drive_dialog_answering">통화 메모에서 답을 찾고 있습니다</string>
+
+    <string name="drive_consent_tagline">당신을 위한 업무 비서</string>
+    <string name="drive_consent_title">차분을 시작합니다</string>
+    <string name="drive_consent_phase_call">통화 중</string>
+    <string name="drive_consent_phase_after">통화 직후</string>
+    <string name="drive_consent_phase_parked">주차 후</string>
+    <string name="drive_consent_phase_work">일해야 할 때</string>
+    <string name="drive_consent_quiet_title">실내를 조용하게</string>
+    <string name="drive_consent_quiet_detail">송풍을 낮추고 창문을 닫아 통화가 잘 들리게 합니다.</string>
+    <string name="drive_consent_gleo_title">Gleo가 짚어 줍니다</string>
+    <string name="drive_consent_gleo_detail">운전하느라 놓친 부분을 Gleo가 말로 짚어 드립니다.</string>
+    <string name="drive_consent_memo_title">통화 메모를 한눈에</string>
+    <string name="drive_consent_memo_detail">핵심 요약과 못 들은 부분을 통화별로 보여 드립니다.</string>
+    <string name="drive_consent_office_title">오피스 모드</string>
+    <string name="drive_consent_office_detail">버튼 하나로 차를 노트북 작업 공간으로 바꿉니다.</string>
+    <string name="drive_consent_recording_notice">통화 내용을 글로 옮겨 이 차에만 저장합니다.</string>
+    <string name="drive_consent_later">나중에</string>
+    <string name="drive_consent_accept">사용하기</string>
+    <string name="drive_consent_fan">송풍</string>
+    <string name="drive_consent_fan_level">%1$d단</string>
+    <string name="drive_consent_window_closed">창문 닫힘</string>
+    <string name="drive_consent_laptop_charging">노트북 충전</string>
+</resources>

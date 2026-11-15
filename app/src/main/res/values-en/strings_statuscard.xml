@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_card_two_line_description">Shows call and cabin adjustment status in two lines</string>
+    <string name="status_card_waiting">Waiting for a call</string>
+    <string name="status_card_on_call">Call in progress</string>
+    <string name="status_card_auto_off">Auto tuning is off</string>
+    <string name="status_card_quieting">Tuning the cabin so you can hear the call</string>
+    <string name="status_card_fan_window_closed">Fan level %1$d · Window closed</string>
+    <string name="status_card_fan_window_open">Fan level %1$d · Window %2$d%% open</string>
+    <string name="status_card_fan_off_window_closed">Fan off · Window closed</string>
+    <string name="status_card_fan_off_window_open">Fan off · Window %1$d%% open</string>
+    <string name="status_card_window_refused">The vehicle did not allow the window adjustment</string>
+    <string name="status_card_cabin_refused">The vehicle did not allow the cabin adjustment</string>
+    <string name="status_card_capturing">Marking the parts you missed</string>
+    <string name="status_card_capturing_detail">Gleo will go over them when the call ends</string>
+    <string name="status_card_summary_ready">Gleo has a summary ready</string>
+    <string name="status_card_summary_question">Would you like to hear the call summary?</string>
+    <string name="status_card_takeover">Take the wheel</string>
+    <string name="status_card_takeover_detail">The desk folds away and the seat and lights return</string>
+    <string name="status_card_no_calls">No calls received today</string>
+    <plurals name="status_card_memos">
+        <item quantity="one">%1$d call memo</item>
+        <item quantity="other">%1$d call memos</item>
+    </plurals>
+    <string name="status_card_contacts">Missed calls: %1$d · Messages: %2$d</string>
+    <string name="status_card_missed_calls">Missed calls: %1$d</string>
+    <string name="status_card_messages">Messages: %1$d</string>
+    <string name="status_card_office_applying">Turning on office mode</string>
+    <string name="status_card_office_applying_detail">Adjusting the seat and lights for laptop work</string>
+    <string name="status_card_office_on">Office mode is on</string>
+    <string name="status_card_charging">Laptop charging · %1$dW</string>
+    <string name="status_card_charging_off">Laptop charging is off</string>
+    <string name="status_card_charging_disconnected">Connect your laptop to start charging</string>
+    <string name="status_card_charging_waiting">Laptop charging on standby · %1$dW</string>
+    <string name="status_card_office_restoring">Putting everything back</string>
+    <string name="status_card_office_restoring_detail">Moving the seat first, then lowering the steering wheel</string>
+    <string name="status_card_office_paused">Stopped</string>
+    <string name="status_card_office_paused_detail">The seat and steering wheel are holding their positions</string>
+</resources>
